@@ -94,13 +94,13 @@ input_images/
 Step 2 — Run Script
 
 Windows:
-
+```
 py convert.py
-
+```
 Linux / macOS:
-
+```
 python3 convert.py
-
+```
 ## Output
 
 Converted AVIF images will be saved in:
@@ -140,9 +140,9 @@ Disable Python aliases if necessary.
 FFmpeg Not Found
 
 Run:
-
+```
 where ffmpeg
-
+```
 If empty, add FFmpeg bin folder to PATH.
 
 ## Performance Notes
