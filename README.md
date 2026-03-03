@@ -104,14 +104,15 @@ python3 convert.py
 ## Output
 
 Converted AVIF images will be saved in:
-
+```
 output_avif/
-
+```
 with the same filenames.
 
 Example:
-
+```
 image1.png → image1.avif
+```
 Encoding Quality
 
 The script uses:
@@ -123,18 +124,19 @@ Full chroma preservation (yuv444p)
 Still-picture optimization
 
 Command internally used:
-
+```
 ffmpeg -i input.png -c:v libaom-av1 -lossless 1 -pix_fmt yuv444p output.avif
-
+```
 ## Troubleshooting
+```
 Python Not Found
-
+```
 Enable Python execution alias or add Python to PATH.
 
 Windows setting:
-
+```
 Settings → Apps → Advanced App Settings → App Execution Aliases
-
+```
 Disable Python aliases if necessary.
 
 FFmpeg Not Found
