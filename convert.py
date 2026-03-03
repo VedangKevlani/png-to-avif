@@ -29,4 +29,4 @@ for filename in os.listdir(INPUT_FOLDER):
         print(f"Converting {filename} → {output_filename}")
         subprocess.run(command, check=True)
 
-print("✅ All PNG files converted to AVIF (lossless).")
+print("✅ All PNG files have been converted to AVIF (lossless).")
