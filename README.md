@@ -70,12 +70,19 @@ py --version
 ```
 Folder Structure
 project/
+
 │
+
 ├── convert.py
+
 ├── input_images/
+
 │     ├── image1.png
+
 │     ├── image2.png
+
 │
+
 └── output_avif/
 
 ## Usage
